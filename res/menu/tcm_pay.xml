@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item android:id="@+id/tcmcancel" android:title="Cancelación"></item>
+    <item android:id="@+id/tcmticket" android:title="Reimpresión"></item>
+    <item android:id="@+id/tcmprint" android:title="Impresión"></item>
+
+</menu>

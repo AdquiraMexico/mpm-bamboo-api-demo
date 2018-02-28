@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paymentCategory">
+		<item>773 - MOBILE SHOPPING SERVICES</item>
+		<item>120 - ADQUIRA SERVICES</item>
+	</string-array>
+</resources>

@@ -1,0 +1,131 @@
+    
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddd66"
+    >
+
+    
+        <TextView
+        android:id="@+id/textViewReferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Referencia" 
+        android:textColor="#000000"/>
+        
+     <EditText
+        android:id="@+id/editPayReference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textCapCharacters" 
+        android:textColor="#000000"
+        >
+
+        <requestFocus />
+    </EditText>
+    
+    
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concepto:" 
+        android:textColor="#000000"/>
+    
+    <EditText
+        android:id="@+id/editPayConcept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapCharacters" 
+        android:focusable="true"
+        android:textColor="#000000"
+        />
+
+   
+  <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Importe:" 
+        android:textColor="#000000"
+        />
+    
+    <EditText
+        android:id="@+id/editPayAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" 
+        android:textColor="#000000"
+        />
+
+  
+    <TextView
+        android:id="@+id/textViewServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicio:" 
+        android:textColor="#000000"
+        />
+    
+    <EditText
+        android:id="@+id/editTextServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" 
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/textViewPeriodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meses:" 
+        android:textColor="#000000"
+        />
+    
+    <EditText
+        android:id="@+id/editTextPeriodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" 
+        android:textColor="#000000"
+        android:text="@string/cero"
+        />
+    
+    <CheckBox
+        android:id="@+id/checkEMV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/emv_swipe_check"
+        android:textColor="#000000"
+         />
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pay_button_text" 
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/textPayResult"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:text="@string/title_activity_tcm_pay"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+         />
+
+   
+</LinearLayout>
